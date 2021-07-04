@@ -86,7 +86,7 @@ body {
   background-color: #ef8172;
   color: #fff;
 }
-.testimonial-title {
+.primary-title {
   font-family: "Montserrat", "sans-serif";
   font-weight: 600;
   font-size: 3rem;
@@ -111,4 +111,14 @@ body {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing section  */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
 }
