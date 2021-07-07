@@ -3,7 +3,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #title {
@@ -45,17 +45,35 @@ body {
 }
 
 /* title image */
-
+.title-img-wrap {
+  position: relative;
+}
 .title-img {
-  width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  width: 60%;
+  right: 30%;
 }
 
+@media (max-width:1036px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
 /* Features section */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
+
 .features-item-wrap {
   text-align: center;
   padding: 4.5%;
